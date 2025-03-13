@@ -1,7 +1,6 @@
-# This repo contains all modications/additions of codes including
-\begin{enumerate}
-\item WRF fortran codes
-\item Python codes
-\item Matlab codes
-\item Shell scripts
-\end{enumerate}
+# This repo contains all modifications/additions of codes including
+1.item WRF fortran codes
+2.item Python codes
+3.item Matlab codes
+4.item Shell scripts
+
