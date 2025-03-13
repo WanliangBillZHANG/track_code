@@ -9,12 +9,12 @@ cp /disk/r108/wzhangcy/WPS/lcz_d4.tif ${WRF_CDRAG}/WPS.OneAPI.z/
 ```
 ## Step 3: modify WRF cdrag for BEP
 ```
-$WRF_CDRAG/met_WRFV3/phys/module_sf_bep.F
+$WRF_CDRAG/WRF.atmos-ocean.OneAPI.z/phys/module_sf_bep.F
 ```
 See updated file module_sf_bep.F
 ## Step 4: modify WRF namelist.input by changing script
 ```
-$WRF_CDRAG/met_WRFV3/test/em_real/runWRF_EPD_d4nudging.csh-num_metgrid_levels-34
+$WRF_CDRAG/WRF.atmos-ocean.OneAPI.z/test/em_real/runWRF_EPD_d4nudging.csh-num_metgrid_levels-34
 ```
 See updated file runWRF_EPD_d4nudging.csh-num_metgrid_levels-34
 ## Step 5: modify WPS automation script
