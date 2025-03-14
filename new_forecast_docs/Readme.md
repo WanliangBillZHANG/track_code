@@ -1,9 +1,9 @@
 # All necessary steps to implement new forecast configuration
-***The new forecast config differs from the last one in that
+**The new forecast config differs from the last one in that**
 1. WRF 4.3.3 is used rather than WRF 4.1.1
 2. BEP urban model is used rather than turned off
 3. LCZ landuse is used rather than using locally improved USGS
-4. Cdrag (drag coefficient in BEP) is urban morphology dependent rather than =0.4***
+4. Cdrag (drag coefficient in BEP) is urban morphology dependent rather than =0.4
 ## Step 1: Define a new WRF&WPS automation scripts path:
 ```
 export WRF_CDRAG='/home/pathop/local.01/wrffc.intel/wrf_cdrag'
