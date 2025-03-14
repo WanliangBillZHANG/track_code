@@ -4,6 +4,8 @@
 2. BEP urban model is used rather than turned off
 3. LCZ landuse is used rather than using locally improved USGS
 4. Cdrag (drag coefficient in BEP) is urban morphology dependent rather than =0.4
+5. PBL switches from ACM2 to MYJ to couple BEP
+6. Surface layer scheme switches from MM5 to MYJ to couple MYJ PBL scheme
 ## Step 1: Define a new WRF&WPS automation scripts path:
 ```
 export WRF_CDRAG='/home/pathop/local.01/wrffc.intel/wrf_cdrag'
